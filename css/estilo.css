@@ -1,0 +1,31 @@
+.pokemon-container {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+.pokemon-block {
+    background-color: rgba(139, 130, 130, 0.404);
+    width: 250px;
+    border: 2px solid rgba(128, 128, 128, 0.288);
+    border-radius: 2pc;
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    text-align: center;
+}
+
+.weight {
+    text-align: right;
+}
+
+.height {
+    text-align: right;
+}
+  
