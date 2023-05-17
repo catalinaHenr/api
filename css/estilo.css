@@ -5,12 +5,158 @@
   gap: 10px;
 }
 
+.btn-container {
+  margin: 0 auto 10px;
+  text-align: center;
+}
+
+.btn-fire:hover,
+.btn-water:hover,
+.btn-normal:hover,
+.btn-poison:hover,
+.btn-bug:hover,
+.btn-grass:hover, 
+.btn-fighting:hover, 
+.btn-ghost:hover, 
+.btn-rock:hover, 
+.btn-psychic:hover, 
+.btn-electric:hover,
+.btn-psychic:hover,
+.btn-rock:hover,
+.btn-ghost:hover,
+.btn-fighting:hover,
+.btn-grass:hover,
+.btn-dragon:hover,
+.btn-fairy:hover,
+.btn-ground:hover,
+.btn-steel:hover,
+.btn-ice:hover,
+.btn-dark:hover {
+  transform: translate(1px, 1px);
+}
+
+.btn-fire,
+.btn-water,
+.btn-normal,
+.btn-poison,
+.btn-bug, 
+.btn-grass, 
+.btn-fighting, 
+.btn-ghost, 
+.btn-rock, 
+.btn-psychic, 
+.btn-electric,
+.btn-psychic,
+.btn-rock,
+.btn-ghost,
+.btn-fighting,
+.btn-grass,
+.btn-dragon,
+.btn-fairy,
+.btn-ground,
+.btn-steel,
+.btn-ice,
+.btn-dark {
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.btn-fire {
+  background-color: Crimson;
+  border: 2px Firebrick solid;
+}
+
+.btn-water {
+  background-color: RoyalBlue;
+  border: 2px MediumSlateBlue solid;
+}
+
+.btn-bug {
+  background-color: YellowGreen;
+  border: 2px OliveDrab solid;
+}
+
+.btn-normal {
+  background-color: Lavender;
+  border: 2px Gainsboro solid;
+}
+
+.btn-poison {
+  background-color: Mediumpurple;
+  border: 2px Blueviolet solid;
+}
+
+.btn-grass{
+  background-color:  Lime;
+  border: 2px Limegreen solid;
+} 
+
+.btn-rock{
+  background-color:  Peru;
+  border: 2px Chocolate solid;
+}
+
+.btn-psychic{
+  background-color: Violet;
+  border: 2px Plum solid;
+}
+
+.btn-electric{
+  background-color: Yellow;
+  border: 2px Gold solid;
+} 
+
+.btn-ghost{
+  background-color: Purple;
+  border: 2px Indigo solid;
+}
+
+.btn-fighting{
+  background-color: Firebrick;
+  border: 2px Darkred solid;
+}
+
+.btn-dragon{
+  background-color: MediumSlateBlue;
+  border: 2px SlateBlue solid;
+}
+
+.btn-fairy{
+  background-color: rgb(255, 136, 238);
+  border: 2px rgb(255, 187, 238) solid;
+}
+
+.btn-ground{
+  background-color: BurlyWood;
+  border: 2px Tan solid;
+}
+
+.btn-steel{
+  background-color: LightGrey;
+  border: 2px Silver solid;
+}
+
+.btn-ice{
+  background-color: AquaMarine;
+  border: 2px PaleTurquoise solid;
+} 
+
+.btn-dark{
+  background-color: SlateGray;
+  border: 2px Darkslategray solid;
+} 
+  
 .pokemon-block {
-  background-color: rgba(139, 130, 130, 0.404);
+  background-color: #ffd865d0;
   width: 250px;
   border: 2px solid rgba(128, 128, 128, 0.288);
   border-radius: 2pc;
+  padding: 20px;
 }
+
 .pokemon-block:hover {
   border: 5px solid rgba(255, 0, 0, 0.37);
 }
@@ -22,6 +168,7 @@ p {
 
 .img-container {
   position: relative;
+  border-radius: 30px;
 }
 
 .img-container:hover {
